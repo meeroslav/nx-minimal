@@ -1,3 +1,5 @@
 {
-  "npmScope": "nx-minimal"
+  "cli": {
+    "defaultCollection": "./generators/generators.json"
+  }
 }
