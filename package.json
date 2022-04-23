@@ -4,10 +4,9 @@
   "scripts": {
     "start": "http-server ."
   },
-  "dependencies": {
-    "nx": "14.0.1"
-  },
   "devDependencies": {
-    "http-server": "^14.1.0"
+    "http-server": "^14.1.0",
+    "nx": "14.0.2"
   }
 }
+
