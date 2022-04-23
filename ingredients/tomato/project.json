@@ -1,1 +1,11 @@
-{"root":"ingredients/tomato"}
+{
+  "root": "ingredients/tomato",
+  "targets": {
+    "build": {
+      "executor": ".:build",
+      "options": {
+        "outDir": "dist/ingredients/tomato"
+      }
+    }
+  }
+}

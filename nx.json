@@ -1,4 +1,12 @@
 {
+  "targetDependencies": {
+    "build": [
+      {
+        "projects": "dependencies",
+        "target": "build"
+      }
+    ]
+  },
   "cli": {
     "defaultCollection": "./generators/generators.json"
   }

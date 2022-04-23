@@ -1,3 +1,11 @@
 {
-  "root": "sandwich"
+  "root": "sandwich",
+  "targets": {
+    "build": {
+      "executor": ".:build",
+      "options": {
+        "outDir": "dist/sandwich"
+      }
+    }
+  }
 }

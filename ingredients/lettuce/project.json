@@ -1,1 +1,11 @@
-{"root":"ingredients/lettuce"}
+{
+  "root": "ingredients/lettuce",
+  "targets": {
+    "build": {
+      "executor": ".:build",
+      "options": {
+        "outDir": "dist/ingredients/lettuce"
+      }
+    }
+  }
+}

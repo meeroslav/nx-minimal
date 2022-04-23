@@ -1,1 +1,11 @@
-{"root":"ingredients/bread"}
+{
+  "root": "ingredients/bread",
+  "targets": {
+    "build": {
+      "executor": ".:build",
+      "options": {
+        "outDir": "dist/ingredients/bread"
+      }
+    }
+  }
+}

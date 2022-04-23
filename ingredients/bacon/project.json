@@ -1,1 +1,11 @@
-{"root":"ingredients/bacon"}
+{
+  "root": "ingredients/bacon",
+  "targets": {
+    "build": {
+      "executor": ".:build",
+      "options": {
+        "outDir": "dist/ingredients/bacon"
+      }
+    }
+  }
+}
