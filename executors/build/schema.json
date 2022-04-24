@@ -1,6 +1,0 @@
-{
-  "cli": "nx",
-  "properties": {
-    "outDir": "dist"
-  }
-}

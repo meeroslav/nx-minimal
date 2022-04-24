@@ -1,13 +1,9 @@
 {
   "name": "sandwich-shop",
-  "generators": "generators/generators.json",
-  "executors": "executors/executors.json",
   "scripts": {
     "start": "http-server ."
   },
   "devDependencies": {
-    "http-server": "^14.1.0",
-    "jest": "^27.5.1",
-    "nx": "14.0.2"
+    "http-server": "^14.1.0"
   }
 }
